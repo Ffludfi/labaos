@@ -79,3 +79,21 @@ Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Ffludfi/labaos.git
    674bad6..d029fc7  master -> master
 (.venv) PS C:\work programs\pypy>    
+
+
+ new
+17.02.2025
+(.venv) PS C:\work programs\PythonProject> git init
+Reinitialized existing Git repository in C:/work programs/PythonProject/.git/
+(.venv) PS C:\work programs\PythonProject> git add . 
+warning: in the working copy of '.idea/workspace.xml', LF will be replaced by CRLF the next time Git touches it
+(.venv) PS C:\work programs\PythonProject> git commit -m "lol"
+[laba2.1new 513b454] lol
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+(.venv) PS C:\work programs\PythonProject> git push --set-upstream https://github.com/Ffludfi/labaos.git laba2.1new
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 2.37 KiB | 1.19 MiB/s, done.
+
