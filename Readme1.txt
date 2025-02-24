@@ -97,3 +97,37 @@ Delta compression using up to 12 threads
 Compressing objects: 100% (15/15), done.
 Writing objects: 100% (16/16), 2.37 KiB | 1.19 MiB/s, done.
 
+
+
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+(.venv) PS C:\work programs\pypy> git init
+Reinitialized existing Git repository in C:/work programs/pypy/.git/
+(.venv) PS C:\work programs\pypy> git add .
+warning: in the working copy of '.idea/workspace.xml', LF will be replaced by CRLF the next time Git touches it
+(.venv) PS C:\work programs\pypy> git commit -m "24.02.2025"
+[laba2 f28b368] 24.02.2025
+ 2 files changed, 23 insertions(+), 3 deletions(-)
+(.venv) PS C:\work programs\pypy> git branch laba3 
+(.venv) PS C:\work programs\pypy> git checkout laba3
+Switched to branch 'laba3'
+(.venv) PS C:\work programs\pypy> git push origin laba3
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 816 bytes | 816.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'laba3' on GitHub by visiting:
+remote:      https://github.com/Ffludfi/labaos/pull/new/laba3
+remote:
+To https://github.com/Ffludfi/labaos.git
+ * [new branch]      laba3 -> laba3
+(.venv) PS C:\work programs\pypy>
+
+
